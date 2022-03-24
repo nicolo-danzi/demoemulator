@@ -1,0 +1,11 @@
+Name: NetLogic
+Type: FolderType
+Children:
+- Name: RuntimeNetLogic1
+  Type: NetLogic
+  Children:
+  - Name: Variable
+    Id: g=c25ebef9a88757e0b5cf9c77d54380a4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

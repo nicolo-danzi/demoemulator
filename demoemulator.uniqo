@@ -1,0 +1,51 @@
+Project:
+ Name: demoemulator
+ ProjectNamespaceIndex: 12
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ CoreVersion: 8.0.0.0
+ Dependencies:
+  2:
+   Uri: 'urn:QPlatform:Core:Net'
+   Module: QPlatform.Core.Net
+   Version: 6.2.0.0
+  3:
+   Uri: 'urn:QPlatform:CoreBase'
+   Module: QPlatform.CoreBase
+   Version: 8.0.0.0
+  4:
+   Uri: 'urn:QPlatform:CoreBase:Net'
+   Module: QPlatform.CoreBase.Net
+   Version: 5.0.0.0
+  5:
+   Uri: 'urn:QPlatform:UI'
+   Module: QPlatform.UI
+   Version: 43.3.0.0
+  6:
+   Uri: 'urn:QPlatform:UI:Net'
+   Module: QPlatform.UI.Net
+   Version: 31.4.0.0
+  7:
+   Uri: 'urn:QPlatform:HMIProject'
+   Module: QPlatform.HMIProject
+   Version: 10.1.0.0
+  8:
+   Uri: 'urn:QPlatform:HMIProject:Net'
+   Module: QPlatform.HMIProject.Net
+   Version: 6.1.0.0
+  9:
+   Uri: 'urn:QPlatform:NativeUI'
+   Module: QPlatform.NativeUI
+   Version: 26.3.0.0
+  10:
+   Uri: 'urn:QPlatform:NativeUI:Net'
+   Module: QPlatform.NativeUI.Net
+   Version: 2.0.0.0
+  11:
+   Uri: 'urn:QPlatform:NetLogic'
+   Module: QPlatform.NetLogic
+   Version: 5.0.0.0
+ Nodes:
+ - File: Nodes/demoemulator.yaml

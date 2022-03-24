@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="QPlatform.EthernetIP.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.EthernetIP.Net/5.0.0.0/Any/QPlatform.EthernetIP.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.MitsubishiQ.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.MitsubishiQ.Net/4.0.0.0/Any/QPlatform.MitsubishiQ.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.System.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.System.Net/2.0.0.0/Any/QPlatform.System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Store.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Store.Net/3.0.0.0/Any/QPlatform.Store.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.MelsecFX3U.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.MelsecFX3U.Net/4.0.0.0/Any/QPlatform.MelsecFX3U.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Core.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Core.Net/6.2.0.0/Any/QPlatform.Core.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.UI.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.UI.Net/31.4.0.0/Any/QPlatform.UI.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Modbus.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Modbus.Net/4.0.0.0/Any/QPlatform.Modbus.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.CoreBase.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.CoreBase.Net/5.0.0.0/Any/QPlatform.CoreBase.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.ODBCStore.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.ODBCStore.Net/1.1.0.0/Any/QPlatform.ODBCStore.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.CommunicationDriver.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.CommunicationDriver.Net/4.0.0.0/Any/QPlatform.CommunicationDriver.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.OPCUAClient.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.OPCUAClient.Net/6.1.0.0/Any/QPlatform.OPCUAClient.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.CoDeSys.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.CoDeSys.Net/4.0.0.0/Any/QPlatform.CoDeSys.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.NetLogic">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.NetLogic/5.0.0.0/Any/QPlatform.NetLogic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Alarm.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Alarm.Net/3.0.0.0/Any/QPlatform.Alarm.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.SQLiteStore.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.SQLiteStore.Net/2.1.0.0/Any/QPlatform.SQLiteStore.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.HMIProject.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.HMIProject.Net/6.1.0.0/Any/QPlatform.HMIProject.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.NativeUI.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.NativeUI.Net/2.0.0.0/Any/QPlatform.NativeUI.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.OmronEthernetIP.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.OmronEthernetIP.Net/4.0.0.0/Any/QPlatform.OmronEthernetIP.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.EventLogger.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.EventLogger.Net/6.0.0.0/Any/QPlatform.EventLogger.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Datalogger.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Datalogger.Net/10.0.0.0/Any/QPlatform.Datalogger.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.OPCUAServer.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.OPCUAServer.Net/3.1.0.0/Any/QPlatform.OPCUAServer.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.S7TCP.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.S7TCP.Net/4.0.0.0/Any/QPlatform.S7TCP.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.OmronFins.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.OmronFins.Net/4.0.0.0/Any/QPlatform.OmronFins.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Recipe.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Recipe.Net/1.2.0.0/Any/QPlatform.Recipe.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Report.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Report.Net/3.0.0.0/Any/QPlatform.Report.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.S7TiaProfinet.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.S7TiaProfinet.Net/5.0.0.0/Any/QPlatform.S7TiaProfinet.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Retentivity.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Retentivity.Net/2.0.0.0/Any/QPlatform.Retentivity.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.SerialPort.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.SerialPort.Net/0.1.0.0/Any/QPlatform.SerialPort.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.TwinCat.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.TwinCat.Net/5.0.0.0/Any/QPlatform.TwinCat.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UAManagedCore">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Bindings/Net/8.0.0.0/Win32_x64/UAManagedCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UAManagedCoreCommon">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Bindings/Net/8.0.0.0/Win32_x64/UAManagedCoreCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Logix.Net">
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.Logix.Net/0.0.0.0/Any/QPlatform.Logix.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
