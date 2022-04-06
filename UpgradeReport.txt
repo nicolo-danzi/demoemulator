@@ -1,0 +1,10 @@
+Project /projects/ASEM/UNIQO/Projects/demoemulator/demoemulator.uniqo upgraded on 06-04-2022 10:29:27.571
+
+Upgraded modules:
+QPlatform.UI.Net: from 31.4.0.0 to 31.6.0.0
+QPlatform.UI: from 43.3.0.0 to 43.5.0.0
+QPlatform.NativeUI: from 26.3.0.0 to 26.5.0.0
+
+No potential breaking changes detected
+
+

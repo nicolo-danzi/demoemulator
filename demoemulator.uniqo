@@ -22,11 +22,11 @@ Project:
   5:
    Uri: 'urn:QPlatform:UI'
    Module: QPlatform.UI
-   Version: 43.3.0.0
+   Version: 43.5.0.0
   6:
    Uri: 'urn:QPlatform:UI:Net'
    Module: QPlatform.UI.Net
-   Version: 31.4.0.0
+   Version: 31.6.0.0
   7:
    Uri: 'urn:QPlatform:HMIProject'
    Module: QPlatform.HMIProject
@@ -38,7 +38,7 @@ Project:
   9:
    Uri: 'urn:QPlatform:NativeUI'
    Module: QPlatform.NativeUI
-   Version: 26.3.0.0
+   Version: 26.5.0.0
   10:
    Uri: 'urn:QPlatform:NativeUI:Net'
    Module: QPlatform.NativeUI.Net
