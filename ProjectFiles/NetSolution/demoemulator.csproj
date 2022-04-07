@@ -40,7 +40,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="QPlatform.UI.Net">
-      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.UI.Net/31.4.0.0/Any/QPlatform.UI.Net.dll</HintPath>
+      <HintPath>D:/dev/vista/bin/RelWithDebInfo/Modules/QPlatform.UI.Net/31.6.0.0/Any/QPlatform.UI.Net.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="QPlatform.Modbus.Net">
